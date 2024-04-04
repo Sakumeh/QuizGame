@@ -1,0 +1,38 @@
+[
+  {
+    "score" : 8,
+    "nomJoueur" : "LeSaku",
+    "difficulte" : "facile",
+    "categorie" : "Géographie"
+  },
+  {
+    "difficulte" : "moyen",
+    "score" : 5,
+    "nomJoueur" : "Kou",
+    "categorie" : "Naruto"
+  },
+  {
+    "score" : 7,
+    "difficulte" : "difficile",
+    "categorie" : "Géographie",
+    "nomJoueur" : "Ameen"
+  },
+  {
+    "nomJoueur" : "Saku",
+    "score" : 7,
+    "difficulte" : "facile",
+    "categorie" : "Géographie"
+  },
+  {
+    "difficulte" : "facile",
+    "score" : 1,
+    "categorie" : "Géographie",
+    "nomJoueur" : "Tr"
+  },
+  {
+    "difficulte" : "moyen",
+    "categorie" : "Naruto",
+    "score" : 9,
+    "nomJoueur" : "Gtr"
+  }
+]

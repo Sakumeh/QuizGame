@@ -1,0 +1,422 @@
+[
+  {
+    "question": "Quelle est la capitale de la France ?",
+    "options": ["Paris", "Londres", "Berlin", "Madrid"],
+    "indexBonneRep": 0,
+    "difficulte": "facile",
+    "categorie": "Géographie"
+  },
+  {
+    "question": "Quelle est la capitale de l'Espagne ?",
+    "options": ["Barcelone", "Madrid", "Séville", "Valence"],
+    "indexBonneRep": 1,
+    "difficulte": "facile",
+    "categorie": "Géographie"
+  },
+  {
+    "question": "Quelle est la capitale de l'Italie ?",
+    "options": ["Rome", "Milan", "Venise", "Naples"],
+    "indexBonneRep": 0,
+    "difficulte": "facile",
+    "categorie": "Géographie"
+  },
+  {
+    "question": "Quelle est la capitale du Royaume-Uni ?",
+    "options": ["Londres", "Édimbourg", "Manchester", "Birmingham"],
+    "indexBonneRep": 0,
+    "difficulte": "facile",
+    "categorie": "Géographie"
+  },
+  {
+    "question": "Quelle est la capitale du Canada ?",
+    "options": ["Toronto", "Ottawa", "Vancouver", "Montréal"],
+    "indexBonneRep": 1,
+    "difficulte": "facile",
+    "categorie": "Géographie"
+  },
+  {
+    "question": "Quelle est la capitale de l'Allemagne ?",
+    "options": ["Berlin", "Munich", "Hambourg", "Francfort"],
+    "indexBonneRep": 0,
+    "difficulte": "facile",
+    "categorie": "Géographie"
+  },
+  {
+    "question": "Quelle est la capitale de la Chine ?",
+    "options": ["Pékin", "Shanghai", "Hong Kong", "Canton"],
+    "indexBonneRep": 0,
+    "difficulte": "facile",
+    "categorie": "Géographie"
+  },
+  {
+    "question": "Quelle est la capitale de la Russie ?",
+    "options": ["Moscou", "Saint-Pétersbourg", "Kazan", "Novossibirsk"],
+    "indexBonneRep": 0,
+    "difficulte": "facile",
+    "categorie": "Géographie"
+  },
+  {
+    "question": "Quelle est la capitale du Brésil ?",
+    "options": ["São Paulo", "Rio de Janeiro", "Brasília", "Salvador"],
+    "indexBonneRep": 2,
+    "difficulte": "facile",
+    "categorie": "Géographie"
+  },
+  {
+    "question": "Quelle est la capitale de l'Inde ?",
+    "options": ["New Delhi", "Bombay", "Bangalore", "Calcutta"],
+    "indexBonneRep": 0,
+    "difficulte": "facile",
+    "categorie": "Géographie"
+  },
+  {
+      "question": "Quel est le plus grand pays du monde en termes de superficie ?",
+      "options": ["Canada", "Chine", "États-Unis", "Russie"],
+      "indexBonneRep": 3,
+      "difficulte": "moyen",
+      "categorie": "Géographie"
+    },
+    {
+      "question": "Quel est le fleuve le plus long du monde ?",
+      "options": ["Nil", "Mississippi", "Amazone", "Yangtsé"],
+      "indexBonneRep": 0,
+      "difficulte": "moyen",
+      "categorie": "Géographie"
+    },
+    {
+      "question": "Dans quel pays se trouve la ville de Dubaï ?",
+      "options": ["Arabie Saoudite", "Qatar", "Émirats Arabes Unis", "Koweït"],
+      "indexBonneRep": 2,
+      "difficulte": "moyen",
+      "categorie": "Géographie"
+    },
+    {
+      "question": "Quel est le point le plus bas de la surface terrestre ?",
+      "options": ["Le Lac Assal", "La mer Morte", "Le Lac Baïkal", "Le Canyon de la Rivière Yarlung Zangbo"],
+      "indexBonneRep": 1,
+      "difficulte": "moyen",
+      "categorie": "Géographie"
+    },
+    {
+      "question": "Quelle est la chaîne de montagnes la plus longue au monde ?",
+      "options": ["Les Rocheuses", "Les Alpes", "Les Andes", "L'Himalaya"],
+      "indexBonneRep": 2,
+      "difficulte": "moyen",
+      "categorie": "Géographie"
+    },
+    {
+      "question": "Quel est le désert le plus grand du monde ?",
+      "options": ["Le Sahara", "Le désert du Kalahari", "Le désert de Gobi", "Le désert de l'Arabie"],
+      "indexBonneRep": 0,
+      "difficulte": "moyen",
+      "categorie": "Géographie"
+    },
+    {
+      "question": "Dans quel pays se trouve le Machu Picchu ?",
+      "options": ["Pérou", "Bolivie", "Équateur", "Chili"],
+      "indexBonneRep": 0,
+      "difficulte": "moyen",
+      "categorie": "Géographie"
+    },
+    {
+      "question": "Quel est le plus grand lac d'eau douce du monde ?",
+      "options": ["Le lac Supérieur", "Le lac Baïkal", "Le lac Michigan", "Le lac Victoria"],
+      "indexBonneRep": 0,
+      "difficulte": "moyen",
+      "categorie": "Géographie"
+    },
+    {
+      "question": "Quelle est la plus grande île du monde ?",
+      "options": ["Groenland", "Australie", "Borneo", "Madagascar"],
+      "indexBonneRep": 0,
+      "difficulte": "moyen",
+      "categorie": "Géographie"
+    },
+    {
+      "question": "Quelle est la plus haute chute d'eau du monde ?",
+      "options": ["Les chutes Victoria", "Les chutes d'Iguaçu", "Les chutes du Niagara", "Les chutes d'Angel"],
+      "indexBonneRep": 3,
+      "difficulte": "moyen",
+      "categorie": "Géographie"
+    },
+    {
+        "question": "Quel est le point culminant de l'Afrique ?",
+        "options": ["Mont Kilimandjaro", "Mont Kenya", "Mont Ruwenzori", "Mont Elgon"],
+        "indexBonneRep": 0,
+        "difficulte": "difficile",
+        "categorie": "Géographie"
+      },
+      {
+        "question": "Quel est le pays le plus peuplé d'Afrique ?",
+        "options": ["Nigeria", "Égypte", "Éthiopie", "République Démocratique du Congo"],
+        "indexBonneRep": 0,
+        "difficulte": "difficile",
+        "categorie": "Géographie"
+      },
+      {
+        "question": "Quelle est la plus grande île du monde située sur un lac d'eau douce ?",
+        "options": ["Île Manitoulin", "Île de Vancouver", "Île de Terre-Neuve", "Île Victoria"],
+        "indexBonneRep": 0,
+        "difficulte": "difficile",
+        "categorie": "Géographie"
+      },
+      {
+        "question": "Dans quel océan se trouve l'archipel des Maldives ?",
+        "options": ["Océan Pacifique", "Océan Atlantique", "Océan Indien", "Océan Arctique"],
+        "indexBonneRep": 2,
+        "difficulte": "difficile",
+        "categorie": "Géographie"
+      },
+      {
+        "question": "Quel est le pays le plus grand en superficie d'Amérique du Sud ?",
+        "options": ["Brésil", "Argentine", "Pérou", "Colombie"],
+        "indexBonneRep": 0,
+        "difficulte": "difficile",
+        "categorie": "Géographie"
+      },
+      {
+        "question": "Quelle est la plus grande ville du monde en termes de population ?",
+        "options": ["Tokyo", "Shanghai", "Mumbai", "Delhi"],
+        "indexBonneRep": 0,
+        "difficulte": "difficile",
+        "categorie": "Géographie"
+      },
+      {
+        "question": "Quel est le désert le plus sec du monde ?",
+        "options": ["Le Sahara", "Le désert de l'Atacama", "Le désert du Kalahari", "Le désert du Gobi"],
+        "indexBonneRep": 1,
+        "difficulte": "difficile",
+        "categorie": "Géographie"
+      },
+      {
+        "question": "Quel pays a le plus grand nombre de frontières terrestres ?",
+        "options": ["Chine", "Russie", "Brésil", "Inde"],
+        "indexBonneRep": 0,
+        "difficulte": "difficile",
+        "categorie": "Géographie"
+      },
+      {
+        "question": "Quelle est la plus haute capitale du monde ?",
+        "options": ["La Paz", "Lima", "Quito", "Bogota"],
+        "indexBonneRep": 0,
+        "difficulte": "difficile",
+        "categorie": "Géographie"
+      },
+      {
+        "question": "Quelle est la plus grande ville du monde en superficie ?",
+        "options": ["Moscou", "Tokyo", "Delhi", "Mexico"],
+        "indexBonneRep": 0,
+        "difficulte": "difficile",
+        "categorie": "Géographie"
+      },
+      {
+          "question": "Quel est le nom complet de Naruto ?",
+          "options": ["Naruto Uzumaki", "Naruto Hatake", "Naruto Uchiwa", "Naruto Hyuga"],
+          "indexBonneRep": 0,
+          "difficulte": "facile",
+          "categorie": "Naruto"
+        },
+        {
+          "question": "Quel est le nom du village où Naruto est né ?",
+          "options": ["Konoha", "Suna", "Kiri", "Iwa"],
+          "indexBonneRep": 0,
+          "difficulte": "facile",
+          "categorie": "Naruto"
+        },
+        {
+          "question": "Quel est le nom de l'équipe de Naruto dirigée par Kakashi Hatake ?",
+          "options": ["Équipe 7", "Équipe 10", "Équipe 8", "Équipe 9"],
+          "indexBonneRep": 0,
+          "difficulte": "facile",
+          "categorie": "Naruto"
+        },
+        {
+          "question": "Quel est le nom de la technique signature de Naruto ?",
+          "options": ["Sharingan", "Chidori", "Rasengan", "Byakugan"],
+          "indexBonneRep": 2,
+          "difficulte": "facile",
+          "categorie": "Naruto"
+        },
+        {
+          "question": "Qui est le sensei de Naruto ?",
+          "options": ["Jiraiya", "Itachi", "Orochimaru", "Tsunade"],
+          "indexBonneRep": 0,
+          "difficulte": "facile",
+          "categorie": "Naruto"
+        },
+        {
+          "question": "Quel est le nom de l'équipe de Shikamaru dirigée par Asuma ?",
+          "options": ["Équipe 7", "Équipe 10", "Équipe 8", "Équipe 9"],
+          "indexBonneRep": 1,
+          "difficulte": "facile",
+          "categorie": "Naruto"
+        },
+        {
+          "question": "Quel est l'animal invoqué par Naruto Uzumaki ?",
+          "options": ["Le serpent", "Le renard", "Le corbeau", "Le crapaud"],
+          "indexBonneRep": 3,
+          "difficulte": "facile",
+          "categorie": "Naruto"
+        },
+        {
+          "question": "Quelle est la spécialité de Sakura Haruno ?",
+          "options": ["Genjutsu", "Taijutsu", "Ninjutsu médical", "Kenjutsu"],
+          "indexBonneRep": 2,
+          "difficulte": "facile",
+          "categorie": "Naruto"
+        },
+        {
+          "question": "Quel est le nom du démon-renard à neuf queues ?",
+          "options": ["Kurama", "Shukaku", "Matatabi", "Isobu"],
+          "indexBonneRep": 0,
+          "difficulte": "facile",
+          "categorie": "Naruto"
+        },
+        {
+          "question": "Quelle est la spécialité de Kakashi Hatake ?",
+          "options": ["Genjutsu", "Taijutsu", "Ninjutsu", "Copier les techniques"],
+          "indexBonneRep": 3,
+          "difficulte": "facile",
+          "categorie": "Naruto"
+        },
+        {
+          "question": "Quel est le nom du fils de Naruto et Hinata ?",
+          "options": ["Boruto", "Sarada", "Shikadai", "Himawari"],
+          "indexBonneRep": 0,
+          "difficulte": "moyen",
+          "categorie": "Naruto"
+          },
+          {
+           "question": "Qui est le père de Naruto Uzumaki ?",
+           "options": ["Minato Namikaze", "Jiraiya", "Kakashi Hatake", "Itachi Uchiwa"],
+           "indexBonneRep": 0,
+           "difficulte": "moyen",
+           "categorie": "Naruto"
+          },
+          {
+           "question": "Quel est le nom de l'équipe dirigée par Kurenai ?",
+            "options": ["Équipe 10", "Équipe 7", "Équipe 8", "Équipe 9"],
+            "indexBonneRep": 2,
+            "difficulte": "moyen",
+            "categorie": "Naruto"
+          },
+          {
+            "question": "Quelle est la spécialité de Rock Lee ?",
+            "options": ["Genjutsu", "Taijutsu", "Ninjutsu", "Kenjutsu"],
+            "indexBonneRep": 1,
+            "difficulte": "moyen",
+            "categorie": "Naruto"
+          },
+          {
+            "question": "Qui a tué les parents de Sasuke Uchiwa ?",
+            "options": ["Itachi Uchiwa", "Orochimaru", "Madara Uchiwa", "Kabuto Yakushi"],
+            "indexBonneRep": 0,
+            "difficulte": "moyen",
+            "categorie": "Naruto"
+          },
+          {
+            "question": "Quel est le nom de la mère de Sasuke Uchiwa ?",
+            "options": ["Sakura Uchiwa", "Mikoto Uchiwa", "Hinata Uchiwa", "Kushina Uchiwa"],
+            "indexBonneRep": 1,
+            "difficulte": "moyen",
+            "categorie": "Naruto"
+          },
+          {
+            "question": "Quel est le nom de la technique secrète de Neji Hyuga ?",
+            "options": ["Byakugan", "Sharingan", "Rinnegan", "Tenseigan"],
+            "indexBonneRep": 0,
+            "difficulte": "moyen",
+            "categorie": "Naruto"
+          },
+          {
+            "question": "Qui a créé la technique du Rasengan ?",
+            "options": ["Minato Namikaze", "Jiraiya", "Kakashi Hatake", "Naruto Uzumaki"],
+            "indexBonneRep": 0,
+            "difficulte": "moyen",
+            "categorie": "Naruto"
+          },
+          {
+            "question": "Quel est le nom du ninja responsable de l'examen Chunin pendant l'arc original de Naruto ?",
+            "options": ["Iruka Umino", "Hayate Gekko", "Asuma Sarutobi", "Mizuki"],
+            "indexBonneRep": 1,
+            "difficulte": "moyen",
+            "categorie": "Naruto"
+          },
+          {
+            "question": "Quel est le nom du clan qui a la capacité de changer de taille ?",
+            "options": ["Clan Akimichi", "Clan Nara", "Clan Yamanaka", "Clan Inuzuka"],
+            "indexBonneRep": 0,
+            "difficulte": "moyen",
+            "categorie": "Naruto"
+          },
+          {
+              "question": "Quel est le nom du créateur du village caché de Konoha ?",
+              "options": ["Hashirama Senju", "Minato Namikaze", "Tobirama Senju", "Hiruzen Sarutobi"],
+              "indexBonneRep": 0,
+              "difficulte": "difficile",
+              "categorie": "Naruto"
+            },
+            {
+              "question": "Quel est le nom de la technique utilisée par Minato Namikaze pour se déplacer à une vitesse extrême ?",
+              "options": ["Kamui", "Kage Bunshin no Jutsu", "Hiraishin no Jutsu", "Shunshin no Jutsu"],
+              "indexBonneRep": 2,
+              "difficulte": "difficile",
+              "categorie": "Naruto"
+            },
+            {
+              "question": "Quel est le nom du village caché dans le pays de la pluie ?",
+              "options": ["Amegakure", "Kusagakure", "Takigakure", "Otogakure"],
+              "indexBonneRep": 0,
+              "difficulte": "difficile",
+              "categorie": "Naruto"
+            },
+            {
+              "question": "Quel est le nom de l'organisation criminelle dirigée par Pain ?",
+              "options": ["Akatsuki", "Kara", "Yamato", "Taka"],
+              "indexBonneRep": 0,
+              "difficulte": "difficile",
+              "categorie": "Naruto"
+            },
+            {
+              "question": "Quel est le nom de l'animal légendaire invoqué par Jiraiya ?",
+              "options": ["Gamabunta", "Manda", "Katsuyu", "Kyubi"],
+              "indexBonneRep": 0,
+              "difficulte": "difficile",
+              "categorie": "Naruto"
+            },
+            {
+              "question": "Qui a vaincu Pain ?",
+              "options": ["Nagato", "Obito Uchiwa", "Danzo Shimura", "Naruto Uzumaki"],
+              "indexBonneRep": 3,
+              "difficulte": "difficile",
+              "categorie": "Naruto"
+            },
+            {
+              "question": "Quel est le nom du père de Gaara ?",
+              "options": ["Rasa", "Yashamaru", "Shukaku", "Chiyo"],
+              "indexBonneRep": 0,
+              "difficulte": "difficile",
+              "categorie": "Naruto"
+            },
+            {
+              "question": "Qui est la deuxième personne à avoir fondé Konoha ?",
+              "options": ["Madara Uchiwa", "Tobirama Senju", "Hashirama Senju", "Hiruzen Sarutobi"],
+              "indexBonneRep": 0,
+              "difficulte": "difficile",
+              "categorie": "Naruto"
+            },
+            {
+              "question": "Quel est le nom de la technique utilisée par Kakashi Hatake pour copier les techniques de ses adversaires ?",
+              "options": ["Byakugan", "Sharingan", "Rinnegan", "Mangekyo Sharingan"],
+              "indexBonneRep": 1,
+              "difficulte": "difficile",
+              "categorie": "Naruto"
+            },
+            {
+              "question": "Quel est le nom du village caché de l'origine du clan Uzumaki ?",
+              "options": ["Konoha", "Uzushio", "Kumo", "Ame"],
+              "indexBonneRep": 1,
+              "difficulte": "difficile",
+              "categorie": "Naruto"
+            }
+]
