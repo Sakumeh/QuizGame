@@ -46,7 +46,6 @@
 				30D0301B2BBF4465001884CF /* questions.json */,
 				30D0301C2BBF472A001884CF /* scores.json */,
 				30D030202BBF482C001884CF /* main.swift */,
-				30D030132BBF43AE001884CF /* QuizGame */,
 				30D030122BBF43AE001884CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,13 +56,6 @@
 				30D030112BBF43AE001884CF /* QuizGame */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		30D030132BBF43AE001884CF /* QuizGame */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = QuizGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
