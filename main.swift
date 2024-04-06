@@ -79,3 +79,80 @@ func chargerQuestions(for categorie: String, difficulty: Difficulte) -> [Questio
     let filteredQuestions = allQuestions.filter { $0.categorie == categorie && $0.difficulte == difficulty }
     return filteredQuestions.isEmpty ? nil : filteredQuestions
 }
+
+// Fonction pour mélanger les questions afin de rendre le quiz plus aléatoire
+func shuffleQuestions(_ questions: [Question]) -> [Question] {
+    return questions.shuffled()
+}
+
+
+
+// Fonction pour obtenir la réponse de l'utilisateur à une question donnée
+func getReponseUtilisateur(for question: Question) -> Int? {
+    print(question.question)
+    for (index, option) in question.options.enumerated() {
+        print("\(index + 1). \(option)")
+    }
+    var reponseUtilisateur: Int?
+    var isValidInput = false
+    repeat {
+        if let input = readLine(), let choice = Int(input), (1...question.options.count).contains(choice) {
+            reponseUtilisateur = choice - 1
+            isValidInput = true
+        } else {
+            print("Réponse invalide. Veuillez entrer le numéro correspondant à votre choix.")
+        }
+    } while !isValidInput
+    
+    return reponseUtilisateur
+}
+
+
+
+// Fonction pour enregistrer le score de l'utilisateur
+func saveScoreUtilisateur(nomJoueur: String, score: Int, difficulte: Difficulte, categorie: String) {
+    let scoreUtilisateur = ScoreUtilisateur(nomJoueur: nomJoueur, score: score, difficulte: difficulte, categorie: categorie)
+    var scores = chargerScoreUtilisateurs() ?? []
+    scores.append(scoreUtilisateur)
+    let encoder = JSONEncoder()
+    encoder.outputFormatting = .prettyPrinted
+    
+    do {
+        let data = try encoder.encode(scores)
+        
+        // Enregistrer les données JSON dans un fichier
+        let filePath = "/Users/saku/Docs/Documents - Sameh/Cours/Développement mobile/IOS/QuizGame/scores.json"
+        let fileURL = URL(fileURLWithPath: filePath)
+        try data.write(to: fileURL)
+        
+        print("Score de \(nomJoueur) enregistré: \(score) (Difficulté: \(difficulte.rawValue), Catégorie: \(categorie))")
+    } catch {
+        print("Erreur lors de l'enregistrement du score : \(error)")
+    }
+}
+
+
+
+// Fonction pour charger les scores des utilisateurs à partir d'un fichier JSON
+func chargerScoreUtilisateurs() -> [ScoreUtilisateur]? {
+    // Charger les données JSON à partir du fichier
+    let filePath = "/Users/saku/Docs/Documents - Sameh/Cours/Développement mobile/IOS/QuizGame/scores.json"
+    let fileURL = URL(fileURLWithPath: filePath)
+    
+    do {
+        let data = try Data(contentsOf: fileURL)
+        let decoder = JSONDecoder()
+        let scores = try decoder.decode([ScoreUtilisateur].self, from: data)
+        return scores
+    } catch {
+        print("Erreur lors du chargement des scores : \(error)")
+        return nil
+    }
+}
+
+
+
+// Fonction pour afficher le score final de l'utilisateur
+func afficherScoreFinal(_ score: Int) {
+    print("Votre score final est de \(score) points.")
+}
