@@ -14,6 +14,8 @@ Ce jeu est un jeu de quiz simple en ligne de commande, où les joueurs peuvent r
 
 ## **DÉMARRAGE DU JEU**
 
+0. IMPORTANT : Avant de démarrer le jeu veuillez modifier les lignes 36 / 144 / 159 afin de changer le chemin absolue des fichiers JSON.
+
 1. **Lancement du jeu :** Exécutez le jeu en utilisant la commande suivante : ./QuizGame
 
 ## **COMMENT JOUER**

@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		307FA6762BC56C75007E4380 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		30D030112BBF43AE001884CF /* QuizGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QuizGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D0301B2BBF4465001884CF /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
 		30D0301C2BBF472A001884CF /* scores.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scores.json; sourceTree = "<group>"; };
@@ -46,6 +47,7 @@
 				30D0301B2BBF4465001884CF /* questions.json */,
 				30D0301C2BBF472A001884CF /* scores.json */,
 				30D030202BBF482C001884CF /* main.swift */,
+				307FA6762BC56C75007E4380 /* README.md */,
 				30D030122BBF43AE001884CF /* Products */,
 			);
 			sourceTree = "<group>";
