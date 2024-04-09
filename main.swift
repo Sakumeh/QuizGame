@@ -33,7 +33,7 @@ struct ScoreUtilisateur: Codable {
 // Fonction pour charger les questions à partir d'un fichier JSON
 func chargerQuestions(from file: String) -> [Question]? {
     // Chemin du fichier JSON contenant les questions
-    let filePath = "/Users/saku/Docs/Documents - Sameh/Cours/Développement mobile/IOS/QuizGame/" + file + ".json"
+    let filePath = "/Users/saku/Docs/Documents - Sameh/Cours/Développement mobile/IOS/QuizGame/questions.json"
     let fileURL = URL(fileURLWithPath: filePath)
     do {
         let data = try Data(contentsOf: fileURL)
